@@ -1,8 +1,0 @@
-[server]
-maxUploadSize = 2048        # 2 GB — handles the full PaySim dataset (~500 MB–1.5 GB)
-maxMessageSize = 2048       # also raise the websocket message limit
-enableCORS = false
-enableXsrfProtection = true
-
-[browser]
-gatherUsageStats = false
